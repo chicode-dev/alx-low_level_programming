@@ -1,11 +1,10 @@
 #include <stdio.h>
 
 /**
- * betty format style
  *
- * main - well its the main function
+ * main - Entry point
  *
- * return: should be 0
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
