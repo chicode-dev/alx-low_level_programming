@@ -34,4 +34,5 @@ int main(void)
 		printf("Last digit of %d is %s\n", n, c);
 	}
 	return (0);
+}
 
