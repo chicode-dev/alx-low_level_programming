@@ -12,15 +12,17 @@ int main(void)
 
 	for (n = 48; n <= 57; ++n)
 	{
+		int b = putchar(n);
 		if (n < 57)
 		{
-			putchar(n);
+			b;
 			putchar(',');
 			putchar(' ');
 		}
 		else
 		{
-			putchar(n);
+			b;
+			putchar('\n');
 		}
 	}
 	return (0);
