@@ -8,18 +8,13 @@
 
 int main(void)
 {
-	int i;
 	int n;
 
 	for (n = 48; n <= 57; ++n)
 	{
 		putchar(n);
-		for (i = 48; i <= 57; ++i)
-		{
-			putchar(i);
-			putchar(',');
-			putchar(' ');
-		}
+		putchar(',');
+		putchar(' ');
 	}
 	return (0);
 }
