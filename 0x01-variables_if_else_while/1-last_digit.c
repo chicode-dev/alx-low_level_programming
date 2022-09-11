@@ -21,15 +21,17 @@ int main(void)
 	if (l > 5)
 	{
 		char c[] = "and is greater than 5";
+		printf("Last digit of %d is %s\n", n, c);
 	}
 	else if (l == 0)
 	{
 		char c[] = "and is 0";
+		printf("Last digit of %d is %s\n", n, c);
 	}
 	else
 	{
 		char c[] = "and is less than 6 and not 0";
+		printf("Last digit of %d is %s\n", n, c);
 	}
-	printf("Last digit of %d is %c\n", n, c);
 	return (0);
 
