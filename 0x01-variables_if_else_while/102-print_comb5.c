@@ -21,14 +21,14 @@ int main(void)
 			{
 				for (l = 48; l <= 57; ++l)
 				{
-					if ((i + j) < (k + l))
+					if (((i * 10) + j) < ((k * 10) + l))
 					{
 						putchar(i);
 						putchar(j);
 						putchar(' ');
 						putchar(k);
 						putchar(l);
-						if (i == 57 && j == 56 && k == 57 && l == 57 )
+						if (i == 57 && j == 56 && k == 57 && l == 57)
 						{
 							break;
 						}
