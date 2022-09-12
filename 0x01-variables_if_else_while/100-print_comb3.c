@@ -15,10 +15,13 @@ int main(void)
 	{
 		for (j = 48; j <= 57; ++j)
 		{
-			putchar(i);
-			putchar(j);
-			putchar(',');
-			putchar(' ');
+			if (i+j != j+i)
+			{	
+				putchar(i);
+				putchar(j);
+				putchar(',');
+				putchar(' ');
+			}
 		}
 	}
 	return (0);
