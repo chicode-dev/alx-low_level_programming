@@ -9,7 +9,6 @@
 int main(void)
 {
 	int n;
-	int f;
 	int n1 = 1;
 	int n2 = 2;
 	int n3;
