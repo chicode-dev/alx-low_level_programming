@@ -2,8 +2,8 @@
 
 /**
  * _abs - calulate abs value
- * @n - parameter int
- * Return - int a is returned
+ * @n: parameter int
+ * Return: int a is returned
  */
 
 int _abs(int n)
