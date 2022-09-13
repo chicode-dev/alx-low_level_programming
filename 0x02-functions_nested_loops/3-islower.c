@@ -2,7 +2,7 @@
 
 /**
  * int _islower - checks lower case letter
- *
+ * c - int parameter
  * Return: 1 (Success)
  */
 
