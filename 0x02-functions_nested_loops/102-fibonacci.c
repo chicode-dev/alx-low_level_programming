@@ -16,10 +16,17 @@ int main(void)
 	printf("%u, %u, ", n1, n2);
 	while (n < 51)
 	{
-		n3 = n1 + n2;
-		printf("%u, ", n3);
-		n1 = n2;
-		n2 = n3;
+		if ( n == 50 )
+		{
+			printf("%u", n3);
+		}
+		else
+		{
+			n3 = n1 + n2;
+			printf("%u, ", n3);
+			n1 = n2;
+			n2 = n3;
+		}
 		n++;
 	}
 	return (0);
