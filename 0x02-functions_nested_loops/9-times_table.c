@@ -26,7 +26,7 @@ void times_table(void)
 			else
 			{
 				/* first digit print */
-				_putchar((product / 10) + '0')
+				_putchar((product / 10) + '0');
 			}
 			/*last digit print */
 			_putchar((product % 10) + '0');
