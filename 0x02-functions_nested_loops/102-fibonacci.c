@@ -8,16 +8,16 @@
 
 int main(void)
 {
-	int n = 3;
-	int n1 = 1;
-	int n2 = 2;
-	int n3;
+	int n = 3U;
+	int n1 = 1U;
+	int n2 = 2U;
+	unsigned int n3;
 
-	printf("%d, %d, ", n1, n2);
+	printf("%u, %u, ", n1, n2);
 	while (n < 51)
 	{
 		n3 = n1 + n2;
-		printf("%d, ", n3);
+		printf("%u, ", n3);
 		n1 = n2;
 		n2 = n3;
 		n++;
