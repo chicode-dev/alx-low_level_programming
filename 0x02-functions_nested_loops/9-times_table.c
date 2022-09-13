@@ -19,6 +19,16 @@ void times_table(void)
 			_putchar(',');
 			_putchar(' ');
 			product = j * k;
+			if (product <= 9)
+			{
+				_putchar(' ');
+			}
+			else
+			{
+				/* first digit print */
+				_putchar((product / 10) + '0')
+			}
+			/*last digit print */
 			_putchar((product % 10) + '0');
 		}
 		_putchar('\n');
