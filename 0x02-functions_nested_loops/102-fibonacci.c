@@ -9,14 +9,14 @@
 int main(void)
 {
 	int n;
-	int n1 = 0U;
-	int n2 = 1U;
-	unsigned int n3;
+	unsigned long n1 = 0;
+	unsigned long n2 = 1;
+	unsigned long n3;
 
 	for (n = 0; n < 50; n++)
 	{
 		n3 = n1 + n2;
-		printf("%u", n3);
+		printf("%lu", n3);
 		n1 = n2;
 		n2 = n3;
 
