@@ -16,13 +16,13 @@ int main(void)
 	while (1)
 	{
 		n3 = n1 + n2;
-		if ((n3 <= 4000000) && ((n3 % 2) == 0))
-		{
-			sum = n3 + sum;
-		}
-		else
+		if (n3 > 4000000)
 		{
 			break;
+		}
+		if ((n3 % 2) == 0)
+		{
+			sum = sum + n3;
 		}
 		n1 = n2;
 		n2 = n3;
