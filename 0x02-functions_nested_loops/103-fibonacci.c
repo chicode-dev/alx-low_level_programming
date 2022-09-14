@@ -8,16 +8,15 @@
 
 int main(void)
 {
-	int n;
 	unsigned long n1 = 0;
 	unsigned long n2 = 1;
 	unsigned long n3;
-	unsigned long sum;
+	float sum = 0;
 
-	for (n = 0; n < 50; n++)
+	while (1)
 	{
 		n3 = n1 + n2;
-		if (n3 < 4000000 && (n3 % 2) == 0)
+		if ((n3 <= 4000000) && ((n3 % 2) == 0))
 		{
 			sum = n3 + sum;
 		}
@@ -28,6 +27,6 @@ int main(void)
 		n1 = n2;
 		n2 = n3;
 	}
-	printf("%lu\n", sum);
+	printf("%.0f\n", sum);
 	return (0);
 }
