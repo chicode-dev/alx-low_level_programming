@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h>i
 
 /**
  * main - fibonacci numbers
@@ -14,11 +14,11 @@ int main(void)
 	unsigned int n3;
 
 	printf("%u, %u, ", n1, n2);
-	while (n < 51)
+	for (n = 0; n < 51; n++)
 	{
-		if ( n == 50 )
+		if (n == 50)
 		{
-			printf("%u", n3);
+			printf("%u\n", n3);
 		}
 		else
 		{
@@ -27,7 +27,6 @@ int main(void)
 			n1 = n2;
 			n2 = n3;
 		}
-		n++;
 	}
 	return (0);
 }
