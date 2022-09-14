@@ -8,24 +8,25 @@
 
 int main(void)
 {
-	int n = 3U;
-	int n1 = 1U;
-	int n2 = 2U;
+	int n;
+	int n1 = 0U;
+	int n2 = 1U;
 	unsigned int n3;
 
-	printf("%u, %u, ", n1, n2);
-	for (n = 0; n < 51; n++)
+	for (n = 0; n < 50; n++)
 	{
-		if (n == 50)
+		n3 = n1 + n2;
+		printf("%u", 3);
+		n1 = n2;
+		n2 = n3;
+
+		if (n == 49)
 		{
-			printf("%u\n", n3);
+			printf("\n");
 		}
 		else
 		{
-			n3 = n1 + n2;
-			printf("%u, ", n3);
-			n1 = n2;
-			n2 = n3;
+			printf(", ");
 		}
 	}
 	return (0);
