@@ -11,7 +11,7 @@ int main(void)
 	unsigned long n1 = 0;
 	unsigned long n2 = 1;
 	unsigned long n3;
-	float sum = 0;
+	float sum;
 
 	while (1)
 	{
