@@ -17,13 +17,17 @@ int main(void)
 	for (n = 0; n < 50; n++)
 	{
 		n3 = n1 + n2;
-		if (n3 < 4000000)
+		if (n3 < 4000000 && (n3 % 2) == 0)
 		{
 			sum = n3 + sum;
+		}
+		else
+		{
+			break;
 		}
 		n1 = n2;
 		n2 = n3;
 	}
-	printf("%d\n", sum);
+	printf("%lu\n", sum);
 	return (0);
 }
