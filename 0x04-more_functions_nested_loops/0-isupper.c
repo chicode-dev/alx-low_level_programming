@@ -2,7 +2,7 @@
 
 /**
  * _isupper - checks if int is uppercase
- *
+ * @c: the int parameter
  * Return: 1 (success) and 0 (failure)
  */
 
