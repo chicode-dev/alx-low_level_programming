@@ -8,6 +8,9 @@
 
 void more_numbers(void)
 {
+	int n;
+	int j;
+
 	for (n = 48; n <= 57; n++)
 	{
 		_putchar(n);
