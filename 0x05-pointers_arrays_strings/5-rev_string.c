@@ -8,22 +8,28 @@
 
 void rev_string(char *s)
 {
-	int count = 0;
-	//int a;
-	int b;
-	
-	while (s[count] != '0')
+	int count = 0, i, j;
+	char *str, temp;
+
+	while (count >= 0)
 	{
+		if (s[count] == '\0')
+			break;
+		/* len of string */
 		count++;
 	}
-	int mid = count / 2;
-	char temp;
+	str = s;
 
-	for (b = 0; b < mid; b++)
+	/* loop through len of str */
+	for (i = 0; i < (count - 1); i++)
 	{
-		temp = s[b];
-		s[b] = s[count - b -1];
-		s[count - i - 1] = temp;
+		for (j = i + 1; j > 0; j--)
+		{
+			/* take the first char value and make it the corresponing end char use pointers instead of array */
+			temp = *(str + j);
+			*(str + j) = *(str + (j - 1));
+			*(str + (j - 1)) = temp;
+		}
 	}
 }
 
