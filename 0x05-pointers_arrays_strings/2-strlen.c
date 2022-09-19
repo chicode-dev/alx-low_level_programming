@@ -13,9 +13,9 @@ int _strlen(char *s)
 	while (*s != '\0')
 	{
 		/* increase number */
-		count++
+		count++;
 		/* increase char value */
-		s++
+		s++;
 	}
 	return count;
 }
