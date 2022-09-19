@@ -25,7 +25,7 @@ void rev_string(char *s)
 	{
 		for (j = i + 1; j > 0; j--)
 		{
-			/* take the first char value and make it the corresponing end char use pointers instead of array */
+			/* swap opposite side of string */
 			temp = *(str + j);
 			*(str + j) = *(str + (j - 1));
 			*(str + (j - 1)) = temp;
