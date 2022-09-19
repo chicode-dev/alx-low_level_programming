@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * _puts2 - string with new line
+ * puts2 - string with new line
  * @str: parameter string
  * Return: void
  */
 
-void _puts2(char *str)
+void puts2(char *str)
 {
 	int n = 0;
 
