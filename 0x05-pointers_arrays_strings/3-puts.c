@@ -2,7 +2,7 @@
 
 /**
  * _puts - string with new line
- * str: parameter string
+ * @str: parameter string
  * Return: void
  */
 
