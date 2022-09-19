@@ -17,5 +17,5 @@ int _strlen(char *s)
 		/* increase char value */
 		s++;
 	}
-	return count;
+	return (count);
 }
