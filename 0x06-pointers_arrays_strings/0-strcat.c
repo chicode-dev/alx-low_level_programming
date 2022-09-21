@@ -27,10 +27,5 @@ char *_strcat(char *dest, char *src)
 	dest[len] = '\0';
 
 	/* print string */
-	while (dest[i] != '\0')
-	{
-		_putchar(dest[i]);
-		i++
-	}
-	Return (_putchar(dest));
+	Return (dest);
 }
