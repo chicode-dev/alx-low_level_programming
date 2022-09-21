@@ -2,8 +2,8 @@
 
 /**
  * *_strcat - adds two strings
- * @*dest: first parameter
- * @*src: second parameter
+ * @dest: first parameter
+ * @src: second parameter
  * Return: char return
  */
 
@@ -17,7 +17,7 @@ char *_strcat(char *dest, char *src)
 		len++;
 
 	/* concat 2 strings */
-	for (; src[j] != '\0'; j++)
+	for (; src[j] == '\0'; j++)
 	{
 		len++;
 		dest[len] = src[j];
