@@ -11,7 +11,7 @@ char *_strcat(char *dest, char *src)
 {
 	int len = 0;
 	int j = 0;
-	int i = 0;
+
 	/* get len or dest */
 	while (dest[len] != '\0')
 		len++;
@@ -27,5 +27,5 @@ char *_strcat(char *dest, char *src)
 	dest[len] = '\0';
 
 	/* print string */
-	Return (dest);
+	return (dest);
 }
