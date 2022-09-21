@@ -19,8 +19,8 @@ char *_strcat(char *dest, char *src)
 	/* concat 2 strings */
 	for (; src[j] == '\0'; j++)
 	{
-		len++;
 		dest[len] = src[j];
+		len++;
 	}
 
 	/* end dest str */
