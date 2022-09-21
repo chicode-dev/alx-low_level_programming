@@ -17,7 +17,7 @@ char *_strcat(char *dest, char *src)
 		len++;
 
 	/* concat 2 strings */
-	for (; src[j] == '\0'; j++)
+	for (; src[j] != '\0'; j++)
 	{
 		dest[len] = src[j];
 		len++;
