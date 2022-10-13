@@ -11,11 +11,11 @@ int op_add(int a, int b)
 	int add;
 
 	add = a + b;
-	return add;
+	return (add);
 }
 
 /**
- * op_add - subtract 2 numbers
+ * op_sub - subtract 2 numbers
  * @a: int para
  * @b: int para
  * Return: int
@@ -25,11 +25,11 @@ int op_sub(int a, int b)
 	int sub;
 
 	sub = a - b;
-	return sub;
+	return (sub);
 }
 
 /**
- * op_add - mulitple 2 numbers
+ * op_mul - mulitple 2 numbers
  * @a: int para
  * @b: int para
  * Return: int
@@ -39,11 +39,11 @@ int op_mul(int a, int b)
 	int mul;
 
 	mul = a * b;
-	return mul;
+	return (mul);
 }
 
 /**
- * op_add - divide 2 numbers
+ * op_div - divide 2 numbers
  * @a: int para
  * @b: int para
  * Return: int
@@ -51,18 +51,18 @@ int op_mul(int a, int b)
 int op_div(int a, int b)
 {
 	int div;
-	
+
 	if (b == 0)
 	{
 		printf("Error\n");
 		exit(100);
 	}
 	div = a / b;
-	return div;
+	return (div);
 }
 
 /**
- * op_add - mod 2 numbers
+ * op_mod - mod 2 numbers
  * @a: int para
  * @b: int para
  * Return: int
@@ -77,5 +77,5 @@ int op_mod(int a, int b)
 		exit(100);
 	}
 	mod = a % b;
-	return mod;
+	return (mod);
 }
