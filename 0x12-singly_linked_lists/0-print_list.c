@@ -1,6 +1,11 @@
 #include "lists.h"
 #include <stdio.h>
 
+/**
+ * print_list - prints elements in list
+ * @h: input
+ * Return: unsigned int
+ */
 size_t print_list(const list_t *h)
 {
 	size_t count = 0;
@@ -15,5 +20,5 @@ size_t print_list(const list_t *h)
 		h = h->next;
 		count++;
 	}
-	return count;
+	return (count);
 }
