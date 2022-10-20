@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * add_note - node at start
+ * add_node - node at start
  * @head: head of list
  * @str: string
  * Return: address
