@@ -1,21 +1,19 @@
 #include "lists.h"
 
 /**
- * print_listint - print elements
+ * listint_len - number of elements
  * @h: linkedlist
  * Return: int
  */
-size_t print_listint(const listint_t *h)
+size_t listint_len(const listint_t *h)
 {
 	size_t count = 0;
 
 	while (h != NULL)
 	{
-		printf("%d\n", h->n);
 		h = h->next;
 		count++;
 	}
 
 	return (count);
 }
-
