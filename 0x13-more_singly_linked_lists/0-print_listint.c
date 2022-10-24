@@ -3,6 +3,7 @@
 /**
  * print_listint - print elements
  * @h: linkedlist
+ *
  * Return: int
  */
 size_t print_listint(const listint_t *h)
